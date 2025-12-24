@@ -43,3 +43,4 @@ build
 # Database migration history (local only)
 .migration-history.json
 .migration-history-prod.json
+*.zip

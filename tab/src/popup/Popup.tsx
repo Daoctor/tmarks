@@ -289,7 +289,7 @@ export function Popup() {
   return (
     <div className="relative h-[80vh] min-h-[620px] w-[380px] overflow-hidden rounded-2xl bg-white text-gray-900 shadow-2xl">
       {/* 通知消息 - 固定在最顶部 */}
-      <div className="pointer-events-none fixed top-0 left-0 right-0 z-50 px-4 pt-2 space-y-2">
+      <div className="pointer-events-none fixed top-[60px] left-0 right-0 z-50 px-4 pt-2 space-y-2">
         {error && (
           <div className="pointer-events-auto">
             <ErrorMessage
